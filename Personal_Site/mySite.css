@@ -86,17 +86,6 @@ body {
     border-radius: 10em 5em;
 }
 
-/*button to contact me*/
-.home-button-button {
-    margin: 25px 0;
-    padding: 15px 50px;
-    border-radius: 15px 2px;
-    border: none;
-    background-color: rgb(44, 43, 97);
-    color: white;
-    text-transform: uppercase;
-}
-
 
 
 /*ABOUT PAGE CSS*/
@@ -112,7 +101,8 @@ body {
 
 .abt-heading {
     text-align: center;
-    font-size: 70px;
+    font-size: 4em;
+    font-family: tahoma;
     text-transform: uppercase;
     font-style: italic;   
     margin: 0 0 80px;
@@ -147,3 +137,41 @@ p {
 }
 
 /* THIS IS FOR THE PORTFOLIO PAGE*/
+
+.portfolio-main {
+    margin: 5em 15em 0;
+}
+
+.projects-heading {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: tahoma;
+    margin:0 0 20px 0 ;
+}
+
+.project-head-p {
+    margin: 0 0 2em ;
+}
+
+.project-cards {
+    display: grid;
+    padding: 40px;
+    border-radius: 40px ;
+    margin: 20px 0 50px;
+    background-color: #7bb9b9;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    grid-template-columns:200fr 300px 1fr ;
+}
+
+.project-card-p {
+    width: 90%;
+    margin: 20px 30px 0 0;
+}
+
+.card-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
