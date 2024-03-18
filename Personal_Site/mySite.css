@@ -6,34 +6,33 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #9bc4c4;
+    background-color: #95c9c9;
 }
-.home-nav {
+.site-nav {
     height: 80px;
     width: 100%;
-    background-color: #9bc4c4;
     margin-bottom: 30px;
 }
 
-.home-nav ul {
+.site-nav ul {
     float: right;
     margin: 0 50px 0 0;
 }
 
-.home-nav ul li {
+.site-nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 20px;
 }
 
-.home-nav li a {
+.site-nav li a {
     font-size: 24px;
     color: black;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-.home-logo {
+.site-logo {
     display: inline;
     font-size: 40px;
     font-style: italic;
@@ -42,15 +41,15 @@ body {
     margin: 0 30px 0 30px;
 }
 
-main {
+.home-main {
     margin: 6em 8em 0 8em;
     display: flex;
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-around; 
 
 }
 
-.only-h1 {
+.home-h1 {
     font-size: 80px;
     text-transform: uppercase;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -58,28 +57,28 @@ main {
     color: #0d3f6e;
 }
 
-.only-h2 {
+.home-h2 {
     padding: 0 0 30px 3px ; 
     font-size: 40px;
     color: rgb(15, 114, 172);
 }
 
-.text-container {
+.home-text-container {
     display: inline;
     width: 50%;
     margin: 30px ;
     padding: 40px;
 }
 
-.main-text {
+.home-main-text {
     display: inline;
     font-size: 25px;
     margin: 0 10px 0 10px;
 }
 
-.img-container {
-    display: flex;
+.home-img-container {
     width: 35%;
+
 }
 
 .home-photo {
@@ -87,14 +86,92 @@ main {
     border-radius: 10em 5em;
 }
 
-.button-button {
-    margin: 25px 0;
-    padding: 15px 50px;
-    border-radius: 15px 2px;
-    border: none;
-    background-color: rgb(44, 43, 97);
-    color: white;
-    text-transform: uppercase;
+
+
+/*ABOUT PAGE CSS*/
+
+.abt-main {
+    padding: 50px;
 }
 
+.abt-content-container {
+    width: 40%;
 
+}
+
+.abt-heading {
+    text-align: center;
+    font-size: 4em;
+    font-family: tahoma;
+    text-transform: uppercase;
+    font-style: italic;   
+    margin: 0 0 80px;
+}
+
+.abt-content-section {
+    display: flex;
+    margin: 0 10em 0;
+    justify-content: space-between;
+}
+
+.abt-content-title {
+    font-size:30px ;
+    margin: 0 0 1.5em;
+    text-transform: uppercase;
+    font-family:Tahoma, sans-serif ;
+}
+
+p {
+    font-size: 25px;
+}
+
+.skills-content {
+    width: 40%;
+}
+
+.online-title, .offline-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Tahoma;
+    margin: 0 0 1em;
+}
+
+/* THIS IS FOR THE PORTFOLIO PAGE*/
+
+.portfolio-main {
+    margin: 5em 15em 0;
+}
+
+.projects-heading {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: tahoma;
+    margin:0 0 20px 0 ;
+}
+
+.project-head-p {
+    margin: 0 0 2em ;
+}
+
+.project-cards {
+    display: grid;
+    padding: 40px;
+    border-radius: 40px ;
+    margin: 20px 0 50px;
+    background-color: #7bb9b9;
+    justify-content: center;
+    grid-template-rows: 1fr;
+    grid-template-columns:200fr 300px 1fr ;
+}
+
+.project-card-p {
+    width: 90%;
+    margin: 20px 30px 0 0;
+}
+
+.card-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
