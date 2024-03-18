@@ -1,0 +1,1 @@
+This is my Personal website, which includes 3 HTML files, 1 CSS file, and 1 JS file. There are also 3 branches that I used to commit my chanhes, Main, new-changes, and final-changes. The main branch has the finished product.
