@@ -479,9 +479,96 @@ a:is(:link,:active,:visited).contact-active {
     display: none;
 }
 
-/* Mobile screens */
+/* large screens */
+@media (min-width: 2150px) {
+    .home-main, .abt-main, .portfolio-main, .contact-main {
+        max-width: 2000px; 
+        margin: 5em auto; 
+        justify-content: center;
+    }
 
-@media (max-width:1024px) { 
+    
+    .home-text-container, .abt-content-container, .portfolio-projects, .contact-section {
+        padding: 0 20px; 
+    }
+
+    
+    .home-img-container, .abt-photo-container, .project-section1, .project-section2, .project-section3 {
+        width: 100%; 
+        justify-content: space-around;
+        margin: 0 0 3em;
+    }
+    
+    .projects-h {
+        text-align: center;
+        margin: 0 0 1.5em ;
+    }
+
+    .home-text-container p {
+        width: 70%;
+    }
+
+
+    .skills-content {
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .offline-content, .online-content {
+        padding: 2em 5em;
+        width: 30%;
+    }
+
+}
+
+
+
+/* desktops */
+@media(max-width:1900px) {
+    .home-main, 
+    .abt-main,
+    .portfolio-main,
+    .contact-main
+     {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+    .home-photo ,.home-img-container {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .home-text-container {
+        margin: 5em 0 3em 5em ;
+        padding: 0;
+    }
+
+    .projects-h {
+        text-align: center;
+        margin:0 0 1em ;
+    }
+
+    .project-section1,
+    .project-section2,
+    .project-section3 {
+        width: auto;
+        justify-content: space-evenly;
+    }
+
+    .cmoney {
+        object-fit:fill;
+    }
+
+
+    
+}
+/* small screens */
+
+@media (max-width:1200px) { 
     .contact-main,
     .portfolio-main,
     .abt-main ,
@@ -571,7 +658,7 @@ a:is(:link,:active,:visited).contact-active {
     }
     
 }
-/* small screens */
+/* mobile screens */
 
 @media(min-width:769px) {
     .skills-content, 
@@ -599,7 +686,19 @@ a:is(:link,:active,:visited).contact-active {
 @media (max-width:450px) {
     .home-h2 {
         position: absolute;
-        top: 22%;
+        top: 16%;
+        font-size: 30px;
+    }
+    .home-h1 {
+        font-size: 60px;
+    }
+
+    .home-text-container p {
+        font-size: 20px;
+    }
+
+    .projects-h {
+        font-size: 50px;
     }
 }
 
