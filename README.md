@@ -1,1 +1,3 @@
-This is my Personal website, which includes 3 HTML files, 1 CSS file, and 1 JS file. There are also 3 branches that I used to commit my chanhes, Main, new-changes, and final-changes. The main branch has the finished product.
+This is my Personal website.The main branch has the finished product for Career Sim 1.
+
+UPDATED WEBSITE ON THE 'updated_site' BRANCH. (FOR CAREER SIM 2)
