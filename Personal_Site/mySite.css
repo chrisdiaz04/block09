@@ -69,7 +69,7 @@ a:is(:link,:active,:visited).contact-active {
 .home-h1 {
     font-size: 80px;
     text-transform: uppercase;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Tahoma, sans-serif;
     font-weight: 900;
     color: #0d3f6e;
 }

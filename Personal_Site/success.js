@@ -1,4 +1,4 @@
 setTimeout(() => {
-    window.location.href = window.location.origin + './Contact.html'
-  },10000)
+    window.location.href = './Contact.html'
+  },5000)
 
